@@ -33,7 +33,7 @@ custom_solver_bias = 0.0
 radius = 10.0
 height = 20.0
 
-[node name="RigidBody2D" type="RigidBody2D" index="0"]
+[node name="RigidBody2D" type="RigidBody2D"]
 
 input_pickable = false
 collision_layer = 1
@@ -65,7 +65,6 @@ max_speed = 250
 
 frames = SubResource( 1 )
 animation = "fly"
-frame = 1
 playing = true
 _sections_unfolded = [ "Transform" ]
 
